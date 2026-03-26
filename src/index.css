@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-950 text-white min-h-screen font-sans;
+        background: radial-gradient(circle at top right, #1e1b4b 0%, #111827 40%, #030712 100%);
+    }
+}
